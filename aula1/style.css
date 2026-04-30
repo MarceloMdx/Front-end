@@ -1,0 +1,33 @@
+:root{
+ --cor-padrao: rgb(128, 26, 26);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+div{
+    background-color: var(--cor-padrao);
+    width: 800px;
+    height: 800px;
+    /* ------------------ */
+     padding: 20px 20px 20px 20px; /* 1º é pracima 2º pra direita 3º pra baixo 4º esquerda  */
+     margin: 20px; /*trabalha em volta por fora */
+}
+
+
+.titulo{
+    color:white;
+    background-color: blue;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    text-decoration: line-through;
+    border: 5px solid #000;
+    border-radius: 20px 2px 20px 2px;
+}

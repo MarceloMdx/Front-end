@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+    <h2>Quer compartilhar suas receitas cadastre-se aqui</h2>
+    
+    <form action="/enviar-dados" method="post">
+        
+        
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" min="18" max="99">
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+        </div>
+
+
+        <div class="button-group">
+            <button type="submit" class="btn-submit">Enviar</button>
+            <button type="reset" class="btn-reset">Limpar</button>
+        </div> <br>
+    </form>
+</form>
+<div>
+<form action="http://127.0.0.1:5500/exercicio.html">
+<button type="submit">Voltar</button>
+</form>
+</div>
+</body>
+</html>
