@@ -3,11 +3,14 @@ section {
 }
 
 body {
+     display: flexbox;
+
     background-color: #551111; 
 }
 
 h1{
-   color: #f1a015; 
+    display: flexbox;
+    color: #f1a015; 
     text-align: center;
     font-size: 50px;
     font-family: Arial, sans-serif;
@@ -32,10 +35,12 @@ h2, div{
 } 
 
 section {
+     display: flexbox;
    border:solid 0.2em;
    color:#f1a015
 }
 .form-group {
+     display: flexbox;
     cursor: pointer;
     transition: all blue;
     font-size: 1rem;
@@ -45,15 +50,17 @@ section {
     
 }
 .rede{
- cursor: pointer;
- transition: all blue;
- font-size: 0.95rem;
- color: #f2a015
-    
+    display: flexbox;
+    cursor: pointer;
+    transition: all blue;
+    font-size: 0.95rem;
+    color: #f2a015
+        
 }
 
 
 .menu {
+    display: flexbox;
      cursor: pointer;
      transition: 0.3s blue;
     padding: 10px 20px;
@@ -89,7 +96,8 @@ p{
 
 
 
-footer {
+footer {    
+  display: flexbox;
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
