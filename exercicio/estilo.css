@@ -17,6 +17,14 @@ h1{
     padding: 0px;   
 }      
 
+main a{
+    color: #f1a015;
+}
+
+main a:hover{
+    color:rgb(68, 4, 153)
+}
+
 h2, div{
    color: #f1a015; 
 
@@ -44,6 +52,7 @@ section {
     
 }
 
+
 .menu {
      cursor: pointer;
      transition: 0.3s blue;
@@ -55,7 +64,26 @@ section {
   
 }
 
-a, p{
+.menu a{
+    color: #f2a015;
+}
+
+.menu a:hover{
+    color:#650894;
+    cursor: pointer;
+  
+}
+
+.rede a{
+     color:#f2a015;
+}
+
+.rede a:hover{
+     color:white
+}
+
+
+p{
     color:#f2a015;
 }
 
@@ -68,7 +96,7 @@ footer {
   border: 1px solid #000000;
   padding: 12px; 
   text-align: left;
-  background-color: #440273;
+  background-color: #260458;
   font-weight: bold;
 }
 
