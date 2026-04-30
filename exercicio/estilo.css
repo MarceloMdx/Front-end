@@ -1,114 +1,128 @@
 section {
-  background: transparent !important;
+    background: transparent !important;
 }
 
 body {
-     display: flexbox;
+    display: flexbox;
 
-    background-color: #551111; 
+    background-color: #551111;
 }
 
-h1{
+h1 {
     display: flexbox;
-    color: #f1a015; 
+    color: #f1a015;
     text-align: center;
     font-size: 50px;
     font-family: Arial, sans-serif;
 
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
     border: 5px groove #f2a015;
-    padding: 0px;   
-}      
+    padding: 0px;
+}
 
-main a{
+main a {
     color: #f1a015;
 }
 
-main a:hover{
-    color:rgb(68, 4, 153)
+main a:hover {
+    color: rgb(68, 4, 153)
 }
 
-h2, div{
-   color: #f1a015; 
+h2,h3,
+div {
+    color: #f1a015;
 
-   
-} 
+
+}
 
 section {
-     display: flexbox;
-   border:solid 0.2em;
-   color:#f1a015
+    display: flexbox;
+    border: solid 0.2em;
+    color: #f1a015
 }
+
 .form-group {
-     display: flexbox;
+    display: flexbox;
     cursor: pointer;
     transition: all blue;
     font-size: 1rem;
     padding: 0.5rem 1.4rem;
     color: #f2a015;
     border-radius: purple;
-    
+
 }
-.rede{
+
+.rede {
     display: flexbox;
     cursor: pointer;
     transition: all blue;
     font-size: 0.95rem;
     color: #f2a015
-        
 }
 
 
 .menu {
     display: flexbox;
-     cursor: pointer;
-     transition: 0.3s blue;
+    cursor: pointer;
+    transition: 0.3s blue;
     padding: 10px 20px;
     font-size: 18px;
-    border: 2px solid #f2a015; 
-    border-radius: 8px;       
+    border: 2px solid #f2a015;
+    border-radius: 8px;
     background-color: #551111;
-  
+
 }
 
-.menu a{
+.menu a {
     color: #f2a015;
 }
 
-.menu a:hover{
-    color:#650894;
+.menu a:hover {
+    color: #650894;
     cursor: pointer;
-  
-}
 
-.rede a{
-     color:#f2a015;
-}
-
-.rede a:hover{
-     color:white
-}
-
-
-p{
-    color:#f2a015;
-}
-
-
-
-footer {    
-  display: flexbox;
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-  border: 1px solid #000000;
-  padding: 12px; 
-  text-align: left;
-  background-color: #260458;
-  font-weight: bold;
-}
-
-li{
-    color: #ffffff;
     
-} 
+}
+
+.rede a {
+    color: #f2a015;
+}
+
+.rede a:hover {
+    color: white
+}
+
+audio{
+    color: #f2a015;
+}
+
+p {
+    color: #f2a015;
+}
+
+table{
+color: #f2a015;
+    
+}
+table{
+border:#ffffff; 
+
+    
+}
+
+footer {
+    display: flexbox;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #000000;
+    padding: 12px;
+    text-align: left;
+    background-color: #260458;
+    font-weight: bold;
+}
+
+li {
+    color: #ffffff;
+
+}
