@@ -19,6 +19,11 @@ h1 {
     border: 5px groove #f2a015;
     padding: 0px;
 }
+.header-inner {
+    display: flex;
+    padding: 0;
+    align-items: center;    
+}
 
 main a {
     color: #f1a015;
@@ -35,7 +40,7 @@ div {
 
 }
 
-section {
+.atalho {
     display: flexbox;
     border: solid 0.2em;
     color: #f1a015
@@ -61,7 +66,8 @@ section {
 }
 
 
-.menu {
+
+.menu{
     display: flexbox;
     cursor: pointer;
     transition: 0.3s blue;
@@ -70,6 +76,17 @@ section {
     border: 2px solid #f2a015;
     border-radius: 8px;
     background-color: #551111;
+
+}
+
+
+.menu2 a {
+    color: #f2a015;
+}
+
+.menu2 a:hover {
+    color: #650894;
+    cursor: pointer;
 
 }
 
