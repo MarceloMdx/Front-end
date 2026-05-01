@@ -20,7 +20,7 @@ h1 {
     padding: 0px;
 }
 .header-inner {
-    display: flex;
+    display: flexbox;
     padding: 0;
     align-items: center;    
 }
@@ -67,7 +67,7 @@ div {
 
 @media screen and (max-width: 768px) {
     
-   */
+   
     body {
         overflow-x: hidden;
         padding: 10px;
@@ -98,7 +98,6 @@ div {
         padding: 10px !important;
     }
 
-    /* Ajusta o player de áudio e vídeo */
     audio, .meu-video {
         width: 100% !important;
         height: auto;
