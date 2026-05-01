@@ -65,6 +65,58 @@ div {
     color: #f2a015
 }
 
+@media screen and (max-width: 768px) {
+    
+   */
+    body {
+        overflow-x: hidden;
+        padding: 10px;
+    }
+
+    
+    img {
+        max-width: 100%;
+        height: auto; 
+        width: auto;
+    }
+
+    .header-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-lista {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .atalho, section {
+        margin-top: 50px !important;
+        padding: 10px !important;
+    }
+
+    /* Ajusta o player de áudio e vídeo */
+    audio, .meu-video {
+        width: 100% !important;
+        height: auto;
+    }
+
+    div {
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.2rem; }
+    h3 { font-size: 1rem; }
+}
 
 
 .menu{
