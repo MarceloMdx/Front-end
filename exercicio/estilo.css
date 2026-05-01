@@ -176,7 +176,7 @@ border:#ffffff;
     
 }
 
-footer {
+.footer {
     display: flexbox;
     width: 100%;
     border-collapse: collapse;
