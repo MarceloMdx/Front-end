@@ -37,9 +37,8 @@ h2,h3,
 div {
     color: #f1a015;
 
+
 }
-
-
 
 .atalho {
     display: flexbox;
@@ -66,34 +65,13 @@ div {
     color: #f2a015
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px) {
     body {
     overflow-x: hidden;        
     padding: 10px;
-    }
 }
 
-@media screen and (max-width: 768px){
-    body {
-    overflow-x: hidden;        
-    padding: 10px;
-    }
-}
 
-@media screen and (max-width: 1024px) {
-    body {
-    overflow-x: hidden;        
-    padding: 10px;
-    }
-}
-
-@media screen and (min-width: 1025px) {
-    body {
-    overflow-x: hidden;        
-    padding: 10px;
-    }
-}
-    
 img {
     max-width: 100%;
     height: auto; 
@@ -169,7 +147,7 @@ h3 { font-size: 1rem; }
     color: #650894;
     cursor: pointer;
 
-    
+
 }
 
 .rede a {
@@ -190,12 +168,12 @@ p {
 
 table{
 color: #f2a015;
-    
+
 }
 table{
 border:#ffffff; 
 
-    
+
 }
 .select{
     display: flexbox;
@@ -223,5 +201,4 @@ border:#ffffff;
 
 li {
     color: #ffffff;
-
 }
