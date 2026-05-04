@@ -175,6 +175,17 @@ border:#ffffff;
 
     
 }
+.select{
+    display: flexbox;
+    cursor: pointer;
+    transition: 0.3s blue;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid #f2a015;
+    border-radius: 8px;
+    background-color: #551111;
+
+}
 
 .footer {
     display: flexbox;
