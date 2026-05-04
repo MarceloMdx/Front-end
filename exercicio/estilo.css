@@ -36,7 +36,10 @@ main a:hover {
 h2,h3,
 div {
     color: #f1a015;
+}
 
+.musica > audio{
+    min-height:50px;
 
 }
 
@@ -64,6 +67,8 @@ div {
     font-size: 0.95rem;
     color: #f2a015
 }
+
+
 
 @media screen and (max-width: 768px) {
     body {
