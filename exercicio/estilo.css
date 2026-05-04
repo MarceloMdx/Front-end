@@ -37,8 +37,9 @@ h2,h3,
 div {
     color: #f1a015;
 
-
 }
+
+
 
 .atalho {
     display: flexbox;
@@ -65,12 +66,33 @@ div {
     color: #f2a015
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px){
     body {
     overflow-x: hidden;        
     padding: 10px;
+    }
 }
 
+@media screen and (max-width: 768px){
+    body {
+    overflow-x: hidden;        
+    padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+    overflow-x: hidden;        
+    padding: 10px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    body {
+    overflow-x: hidden;        
+    padding: 10px;
+    }
+}
     
 img {
     max-width: 100%;
