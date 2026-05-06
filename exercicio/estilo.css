@@ -119,7 +119,7 @@ table {
     }
 
 
-.menu{
+.menu .pg{
     display: flexbox;
     cursor: pointer;
     transition: 0.3s blue;

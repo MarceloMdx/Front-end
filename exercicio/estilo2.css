@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    body {
+    overflow-x: hidden;        
+    padding: 10px;
+}
+}
+body {
+    display: flexbox;
+    background-color: #551111;
+}
+h2,h3,
+div {
+    color: #f1a015;
+    font-size: 1.8rem;
+    font-size: 1.8rem;
+}
